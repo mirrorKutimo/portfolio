@@ -1,8 +1,9 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import Appeal from "./components/Appeal";
 import Skills from "./components/Skills";
+import Career from "./components/Career";
 import Projects from "./components/Projects";
-import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 
 export default function Home() {
@@ -11,9 +12,10 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <Appeal />
         <Skills />
+        <Career />
         <Projects />
-        <Experience />
         <Contact />
       </main>
     </>
