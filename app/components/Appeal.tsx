@@ -5,7 +5,7 @@ const points = [
   },
   {
     title: "フルスタック × インフラの一気通貫対応",
-    body: "AWS（EC2/RDS/Lambda/Amplify/CloudFront等）のインフラ設計から、PHP・Next.js・Node.jsのフルスタック開発、Flutter iOS/Androidアプリ、外部API連携まで単独で完結。採用コスト換算で複数ロール分の業務を1人で担当。",
+    body: "AWS（EC2/RDS/Lambda/Amplify/CloudFront等）のインフラ設計から、PHP・Next.js・Node.jsのフルスタック開発、Flutter iOS/Androidアプリ、外部API連携まで単独で完結。複数ロール分の業務を1人で担当してきた。",
   },
   {
     title: "AI・LLMの実務組み込み",
@@ -13,7 +13,7 @@ const points = [
   },
   {
     title: "セキュリティ・品質管理の内製化",
-    body: "OWASP ZAPによる全サービス横断の脆弱性診断、XSS/CSRF/レートリミット実装、IT監査対応、E2Eテスト設計・nightwatch活用まで自己完結。外部委託せず内製で品質管理を完結させてきた。",
+    body: "OWASP ZAPによる全サービス横断の脆弱性診断、XSS/CSRF/レートリミット実装、IT監査対応、E2Eテスト設計まで自己完結。外部委託なしで品質管理を完結させてきた。",
   },
   {
     title: "チームリードとマネジメント実績",
@@ -21,46 +21,52 @@ const points = [
   },
   {
     title: "独学フルスタック・自走力",
-    body: "個人事業主としてVPS・専用サーバーからWebサイト構築・アフィリエイト収益化まで全工程を独力で実施。Pythonによる自動化ツール・ウィキ自動開設サイト制作など、課題に応じて技術を独学で習得するタイプ。",
+    body: "個人事業主としてVPS・専用サーバーからWebサイト構築・アフィリエイト収益化まで全工程を独力で実施。Pythonによる自動化ツール開発など、課題に応じて技術を独学で習得する自走型のスタイル。",
   },
 ];
 
 export default function Appeal() {
   return (
-    <section id="pr" style={{ padding: "72px 24px", borderBottom: "1px solid var(--border)" }}>
-      <div style={{ maxWidth: 960, margin: "0 auto" }}>
-        <SectionLabel>自己PR</SectionLabel>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 16 }}>
+    <section id="pr">
+      <SectionHeader>自己PR</SectionHeader>
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }}>
+        <dl>
           {points.map((p, i) => (
             <div key={i} style={{
-              background: "var(--bg-card)",
-              border: "1px solid var(--border)",
-              borderRadius: 10,
-              padding: "22px 24px",
+              display: "grid",
+              gridTemplateColumns: "240px 1fr",
+              gap: "0 32px",
+              padding: "16px 0",
+              borderBottom: "1px solid var(--border)",
             }}>
-              <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 10 }}>
-                <span style={{
-                  fontSize: 11, fontFamily: "var(--font-geist-mono)",
-                  color: "var(--accent)", background: "var(--accent-dim)",
-                  border: "1px solid var(--accent-border)",
-                  borderRadius: 4, padding: "1px 8px", flexShrink: 0, marginTop: 2,
-                }}>0{i + 1}</span>
-                <h3 style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.5 }}>{p.title}</h3>
-              </div>
-              <p style={{ fontSize: 13, color: "var(--text-sub)", lineHeight: 1.85 }}>{p.body}</p>
+              <dt style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", paddingTop: 1, lineHeight: 1.6 }}>
+                {p.title}
+              </dt>
+              <dd style={{ fontSize: 13, color: "var(--text-sub)", lineHeight: 1.9 }}>
+                {p.body}
+              </dd>
             </div>
           ))}
-        </div>
+        </dl>
       </div>
     </section>
   );
 }
 
-export function SectionLabel({ children }: { children: React.ReactNode }) {
+export function SectionHeader({ children }: { children: React.ReactNode }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 28 }}>
-      <div style={{ width: 3, height: 20, background: "var(--accent)", borderRadius: 2, flexShrink: 0 }} />
-      <h2 style={{ fontSize: 18, fontWeight: 700, letterSpacing: "0.02em" }}>{children}</h2>
+    <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px" }}>
+      <h2 style={{
+        fontSize: 11,
+        fontWeight: 700,
+        letterSpacing: "0.1em",
+        color: "var(--text-muted)",
+        textTransform: "uppercase",
+        borderTop: "2px solid var(--text)",
+        paddingTop: 10,
+        marginTop: 48,
+        marginBottom: 20,
+      }}>{children}</h2>
     </div>
   );
 }
