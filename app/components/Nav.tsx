@@ -6,7 +6,7 @@ const links = [
   { label: "スキル", href: "#skills" },
   { label: "職務経歴", href: "#career" },
   { label: "プロジェクト", href: "#projects" },
-  { label: "連絡先", href: "#contact" },
+  { label: "資格", href: "#contact" },
 ];
 
 export default function Nav() {
