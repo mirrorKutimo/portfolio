@@ -21,7 +21,7 @@ const points = [
   },
   {
     title: "独学フルスタック・自走力",
-    body: "個人事業主としてVPS・専用サーバーからWebサイト構築・アフィリエイト収益化まで全工程を独力で実施。Pythonによる自動化ツール開発など、課題に応じて技術を独学で習得する自走型のスタイル。",
+    body: "VPS・専用サーバーでのサイト運営から独学でスタートし、現在はAWS（EC2 / RDS / Lambda / CloudFront等）+ Terraformによるインフラコード化まで対応。課題に応じて技術を自己習得し続けており、直近はTransformers / Langfuse / LangSmith等LLMOps領域にも注力中。",
   },
 ];
 
