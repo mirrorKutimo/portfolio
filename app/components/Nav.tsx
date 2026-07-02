@@ -19,7 +19,7 @@ export default function Nav() {
       borderBottom: "1px solid var(--border)",
     }}>
       <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px", height: 48, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <span style={{ fontSize: 13, fontWeight: 600, color: "var(--text-sub)" }}>大谷 未央　職務経歴書</span>
+        <span style={{ fontSize: 13, fontWeight: 600, color: "var(--text-sub)" }}>大谷 未央　ポートフォリオ</span>
         <ul style={{ display: "flex", gap: 24, listStyle: "none" }} className="nav-desktop">
           {links.map(l => (
             <li key={l.href}>

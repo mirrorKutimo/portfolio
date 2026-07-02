@@ -6,7 +6,7 @@ export default function Hero() {
           <tbody>
             <tr>
               <td style={{ verticalAlign: "top", paddingRight: 40 }}>
-                <p style={{ fontSize: 11, color: "var(--text-muted)", letterSpacing: "0.08em", marginBottom: 6 }}>PORTFOLIO / 職務経歴書</p>
+                <p style={{ fontSize: 11, color: "var(--text-muted)", letterSpacing: "0.08em", marginBottom: 6 }}>PORTFOLIO</p>
                 <h1 style={{ fontSize: 28, fontWeight: 800, letterSpacing: "0.04em", marginBottom: 4 }}>大谷　未央</h1>
                 <p style={{ fontSize: 13, color: "var(--text-sub)", marginBottom: 20 }}>
                   Webエンジニア / Webディレクター
