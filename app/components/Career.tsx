@@ -17,7 +17,7 @@ const jobs: Job[] = [
     company: "株式会社メディア工房",
     role: "開発部アライアンスチーム / テックリード",
     size: "汎用機SE など3職種兼務",
-    summary: "占いポータル・美容アプリ・AI占いなど複数Webサービスのインフラ設計・開発・運用・グロースを単独で担当。インフラからSEO・広告・ネイティブアプリ・AIエージェント開発まで幅広く対応。",
+    summary: "複数Webサービスのインフラ設計・開発・運用・グロースを担当。インフラからフルスタック開発・ネイティブアプリ・AIエージェント開発・SEO・データ分析まで幅広く対応。",
     achievements: ["担当プロジェクト30本超", "2,100件以上のタスク処理", "複数サービスの月間数百万PV維持・成長"],
     bullets: [
       "AWS（EC2 / RDS / ALB / Lambda / API Gateway / Amplify / CloudFront / S3 / EventBridge等）の設計・構築・運用",
