@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <SectionHeader>資格</SectionHeader>
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 80px" }}>
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 80px" }} className="section-wrap">
         <div style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: "0 32px", marginBottom: 32 }}>
           <div style={{ fontSize: 12, color: "var(--text-muted)", fontWeight: 600, paddingTop: 2 }}>保有資格</div>
           <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: 4 }}>

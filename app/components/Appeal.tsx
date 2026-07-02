@@ -29,17 +29,17 @@ export default function Appeal() {
   return (
     <section id="pr">
       <SectionHeader>自己PR</SectionHeader>
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }}>
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }} className="section-wrap">
         <dl>
           {points.map((p, i) => (
-            <div key={i} style={{
+            <div key={i} className="appeal-grid" style={{
               display: "grid",
               gridTemplateColumns: "240px 1fr",
               gap: "0 32px",
               padding: "16px 0",
               borderBottom: "1px solid var(--border)",
             }}>
-              <dt style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", paddingTop: 1, lineHeight: 1.6 }}>
+              <dt className="appeal-title" style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", paddingTop: 1, lineHeight: 1.6 }}>
                 {p.title}
               </dt>
               <dd style={{ fontSize: 13, color: "var(--text-sub)", lineHeight: 1.9 }}>
@@ -55,7 +55,7 @@ export default function Appeal() {
 
 export function SectionHeader({ children }: { children: React.ReactNode }) {
   return (
-    <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px" }}>
+    <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px" }} className="section-wrap">
       <h2 style={{
         fontSize: 11,
         fontWeight: 700,

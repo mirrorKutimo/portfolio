@@ -18,15 +18,15 @@ export default function Skills() {
   return (
     <section id="skills">
       <SectionHeader>スキルセット</SectionHeader>
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }}>
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }} className="section-wrap">
         <table style={{ width: "100%", borderCollapse: "collapse" }}>
           <tbody>
             {categories.map((cat, i) => (
-              <tr key={cat.label} style={{ borderTop: i === 0 ? "1px solid var(--border)" : undefined, borderBottom: "1px solid var(--border)" }}>
-                <td style={{ padding: "10px 16px 10px 0", width: 140, verticalAlign: "top", fontSize: 12, color: "var(--text-muted)", fontWeight: 600, whiteSpace: "nowrap" }}>
+              <tr key={cat.label} className="skills-row" style={{ borderTop: i === 0 ? "1px solid var(--border)" : undefined, borderBottom: "1px solid var(--border)" }}>
+                <td className="skills-label" style={{ padding: "10px 16px 10px 0", width: 140, verticalAlign: "top", fontSize: 12, color: "var(--text-muted)", fontWeight: 600, whiteSpace: "nowrap" }}>
                   {cat.label}
                 </td>
-                <td style={{ padding: "10px 0", fontSize: 13, color: "var(--text-sub)", lineHeight: 2 }}>
+                <td className="skills-value" style={{ padding: "10px 0", fontSize: 13, color: "var(--text-sub)", lineHeight: 2 }}>
                   {cat.items.join("　/　")}
                 </td>
               </tr>

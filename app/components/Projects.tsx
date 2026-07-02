@@ -88,9 +88,9 @@ export default function Projects() {
   return (
     <section id="projects">
       <SectionHeader>主要プロジェクト</SectionHeader>
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }}>
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }} className="section-wrap">
         {projects.map((p, i) => (
-          <div key={i} style={{
+          <div key={i} className="doc-grid" style={{
             display: "grid",
             gridTemplateColumns: "160px 1fr",
             gap: "0 32px",

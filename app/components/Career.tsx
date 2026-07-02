@@ -114,9 +114,9 @@ export default function Career() {
   return (
     <section id="career">
       <SectionHeader>職務経歴</SectionHeader>
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }}>
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }} className="section-wrap">
         {jobs.map((job, i) => (
-          <div key={i} style={{
+          <div key={i} className="doc-grid" style={{
             display: "grid",
             gridTemplateColumns: "160px 1fr",
             gap: "0 32px",

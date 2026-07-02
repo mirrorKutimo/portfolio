@@ -34,3 +34,27 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 ::selection { background: rgba(26,86,219,0.15); }
+
+@media (max-width: 640px) {
+  /* Hero */
+  .hero-row { display: block !important; }
+  .hero-left { display: block !important; padding-right: 0 !important; margin-bottom: 24px; }
+  .hero-right { display: block !important; width: 100% !important; }
+  .hero-right table { width: 100% !important; }
+
+  /* 2カラムグリッド（期間 | 内容）→ 1カラム */
+  .doc-grid { grid-template-columns: 1fr !important; gap: 4px !important; }
+  .doc-grid-meta { padding-bottom: 0 !important; color: var(--text-muted); }
+
+  /* 自己PR */
+  .appeal-grid { grid-template-columns: 1fr !important; gap: 4px !important; }
+  .appeal-title { padding-bottom: 2px !important; }
+
+  /* スキルテーブル */
+  .skills-row { display: block !important; padding: 12px 0 !important; }
+  .skills-label { display: block !important; padding: 0 0 6px !important; width: auto !important; }
+  .skills-value { display: block !important; padding: 0 !important; }
+
+  /* 余白調整 */
+  .section-wrap { padding-left: 16px !important; padding-right: 16px !important; }
+}
