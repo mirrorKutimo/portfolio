@@ -32,14 +32,14 @@ export default function Appeal() {
       <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px 48px" }} className="section-wrap">
         <dl>
           {points.map((p, i) => (
-            <div key={i} className="appeal-grid" style={{
+            <div key={i} className="appeal-row" style={{
               display: "grid",
               gridTemplateColumns: "240px 1fr",
               gap: "0 32px",
               padding: "16px 0",
               borderBottom: "1px solid var(--border)",
             }}>
-              <dt className="appeal-title" style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", paddingTop: 1, lineHeight: 1.6 }}>
+              <dt style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", paddingTop: 1, lineHeight: 1.6 }}>
                 {p.title}
               </dt>
               <dd style={{ fontSize: 13, color: "var(--text-sub)", lineHeight: 1.9 }}>

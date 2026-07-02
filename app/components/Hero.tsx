@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
     <header style={{ borderBottom: "2px solid var(--text)", padding: "40px 0 32px" }}>
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px" }} className="section-wrap">
-        <div style={{ display: "flex", gap: 40, alignItems: "flex-start" }} className="hero-row">
-          <div style={{ flex: 1, minWidth: 0 }} className="hero-left">
+      <div style={{ maxWidth: 860, margin: "0 auto", padding: "0 32px" }}>
+        <div className="hero-row" style={{ display: "flex", gap: 40, alignItems: "flex-start" }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
             <p style={{ fontSize: 11, color: "var(--text-muted)", letterSpacing: "0.08em", marginBottom: 6 }}>PORTFOLIO</p>
             <h1 style={{ fontSize: 28, fontWeight: 800, letterSpacing: "0.04em", marginBottom: 4 }}>大谷　未央</h1>
             <p style={{ fontSize: 13, color: "var(--text-sub)", marginBottom: 20 }}>
@@ -16,7 +16,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div style={{ flexShrink: 0, width: 240 }} className="hero-right">
+          <div className="hero-table" style={{ flexShrink: 0, width: 240 }}>
             <table style={{ borderCollapse: "collapse", fontSize: 12, width: "100%" }}>
               <tbody>
                 {[
@@ -36,6 +36,14 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      <style>{`
+        @media (max-width: 640px) {
+          .hero-row { flex-direction: column !important; gap: 24px !important; }
+          .hero-table { width: 100% !important; }
+          .hero-table table { width: 100% !important; }
+        }
+      `}</style>
     </header>
   );
 }

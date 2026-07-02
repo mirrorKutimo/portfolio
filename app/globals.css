@@ -37,24 +37,18 @@ a:hover { text-decoration: underline; }
 
 @media (max-width: 640px) {
   /* Hero */
-  .hero-row { display: block !important; }
-  .hero-left { display: block !important; padding-right: 0 !important; margin-bottom: 24px; }
-  .hero-right { display: block !important; width: 100% !important; }
-  .hero-right table { width: 100% !important; }
+  .hero-row { flex-direction: column !important; gap: 24px !important; }
+  .hero-table { width: 100% !important; }
 
-  /* 2カラムグリッド（期間 | 内容）→ 1カラム */
+  /* 2カラムグリッド → 1カラム */
   .doc-grid { grid-template-columns: 1fr !important; gap: 4px !important; }
-  .doc-grid-meta { padding-bottom: 0 !important; color: var(--text-muted); }
-
-  /* 自己PR */
-  .appeal-grid { grid-template-columns: 1fr !important; gap: 4px !important; }
-  .appeal-title { padding-bottom: 2px !important; }
+  .appeal-row { grid-template-columns: 1fr !important; gap: 6px !important; }
 
   /* スキルテーブル */
   .skills-row { display: block !important; padding: 12px 0 !important; }
-  .skills-label { display: block !important; padding: 0 0 6px !important; width: auto !important; }
+  .skills-label { display: block !important; width: auto !important; padding: 0 0 6px !important; white-space: normal !important; }
   .skills-value { display: block !important; padding: 0 !important; }
 
-  /* 余白調整 */
+  /* 余白 */
   .section-wrap { padding-left: 16px !important; padding-right: 16px !important; }
 }
