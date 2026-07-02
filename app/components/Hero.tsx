@@ -26,8 +26,6 @@ export default function Hero() {
                       ["AWSインフラ / Terraform", "約5年（2020〜）"],
                       ["AI / LLM 活用", "約3年（2023〜）"],
                       ["Flutter モバイル開発", "約2年（2024〜）"],
-                      ["担当PJ数", "30本以上"],
-                      ["チーム売上実績", "月2,000万達成"],
                     ].map(([k, v]) => (
                       <tr key={k} style={{ borderTop: "1px solid var(--border)" }}>
                         <td style={{ padding: "7px 12px 7px 0", color: "var(--text-muted)", whiteSpace: "nowrap" }}>{k}</td>
