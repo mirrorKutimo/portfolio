@@ -14,7 +14,7 @@ export default function Hero() {
                 <p style={{ fontSize: 13, color: "var(--text-sub)", lineHeight: 1.9, maxWidth: 520 }}>
                   2008年よりWeb・マーケティング領域でキャリアをスタート。SEO/SEM・アフィリエイト・EC運営を経て
                   フルスタックエンジニアに転身。現在はAWSインフラ設計・フルスタック開発・Flutterアプリ・
-                  Claude APIを活用したAIエージェント開発・SEO・広告運用まで一気通貫で対応。
+                  Claude APIを活用したAIエージェント開発・SEO・データ分析まで一気通貫で対応。
                 </p>
               </td>
               <td style={{ verticalAlign: "top", width: 220, whiteSpace: "nowrap" }}>
