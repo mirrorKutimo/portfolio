@@ -24,10 +24,12 @@ const projects = [
     bullets: [
       "Claude APIを組み込んだAI占いサービスのMVP定義・AWSインフラ設計・実装",
       "法務チェック・決済セキュリティ・Webアプリ標準チェック専用AIエージェントを自作",
+      "Transformers（HuggingFace）を活用したテキスト分析・埋め込み処理",
+      "Langfuse / LangSmithによるLLM APIトレーシング・プロンプトバージョン管理・コスト最適化",
       "Sentry MCP・Google Analytics MCPの業務プロセスへの組み込み",
       "ベクトルDB・embedding・AzureMLの技術調査・検証",
     ],
-    tech: "Claude API / Sentry MCP / GA4 MCP / Claude Code / Python / AzureML / Vector DB",
+    tech: "Claude API / Transformers / Langfuse / LangSmith / Sentry MCP / GA4 MCP / Claude Code / Python / Vector DB",
   },
   {
     name: "モッピー連携 / LINEyahoo占いAPI",

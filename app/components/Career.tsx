@@ -26,6 +26,8 @@ const jobs: Job[] = [
       "PHP / Next.js / Node.js によるWebサービス開発・本番デプロイ管理・Stripe決済実装",
       "Flutter製アプリ（iOS / Android）の引き継ぎ・機能改修・TestFlight / 本番リリース対応",
       "Claude APIを活用したAI占い機能・SEO記事自動生成・AIエージェント（法務 / 決済 / QA）自作",
+      "Transformers（HuggingFace）を活用したテキスト分析・埋め込み処理・モデル評価",
+      "Langfuse / LangSmithによるLLM APIのトレーシング・プロンプト管理・コスト最適化",
       "Sentry MCP・Google Analytics MCPの業務プロセスへの組み込み",
       "GSC API内製SEOツール開発（カニバリ検出・競合分析）・Googleコアアップデート / AI Overview対応",
       "Google AdSense / GAM / fluct / A8.net等の広告・アフィリエイト収益最大化",
@@ -34,7 +36,7 @@ const jobs: Job[] = [
       "業務委託エンジニア・ライターのタスク管理・PRレビュー・採用（Wantedly・面談・契約書作成）",
       "YouTube / TikTok / Instagram / X の運用・Vrew / Midjourney / Figmaを使ったコンテンツ制作",
     ],
-    tech: ["AWS", "Terraform", "PHP", "Next.js", "Node.js", "Flutter", "Claude API", "GA4", "BigQuery", "Looker Studio", "LINE API", "OWASP ZAP"],
+    tech: ["AWS", "Terraform", "PHP", "Next.js", "Node.js", "Flutter", "Claude API", "Transformers", "Langfuse", "LangSmith", "GA4", "BigQuery", "Looker Studio", "LINE API", "OWASP ZAP"],
   },
   {
     period: "2020年05月 ─ 2024年02月",

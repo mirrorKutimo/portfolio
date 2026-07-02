@@ -4,7 +4,7 @@ const categories = [
   { label: "クラウド・インフラ", items: ["AWS EC2", "RDS", "ALB", "Lambda", "API Gateway", "Amplify", "S3", "CloudFront", "EventBridge", "GuardDuty", "CloudTrail", "Terraform", "Nginx", "Docker", "Cloudflare Workers"] },
   { label: "言語・FW", items: ["TypeScript / JavaScript", "Next.js", "Node.js", "PHP", "Go", "Python", "Dart（Flutter）", "React", "HTML / CSS"] },
   { label: "DB・データ", items: ["MySQL", "MariaDB", "PostgreSQL", "BigQuery", "ベクトルDB"] },
-  { label: "AI / LLM", items: ["Claude API", "ChatGPT", "Claude Code", "Sentry MCP", "GA4 MCP", "Midjourney", "Vrew", "AzureML"] },
+  { label: "AI / LLM", items: ["Claude API", "ChatGPT", "Claude Code", "Transformers（HuggingFace）", "Langfuse", "LangSmith", "Sentry MCP", "GA4 MCP", "Midjourney", "Vrew", "AzureML"] },
   { label: "モバイル", items: ["Flutter（iOS / Android）", "Xcode", "TestFlight", "Deploygate", "FVM"] },
   { label: "解析・BI", items: ["GA4", "GTM", "GSC API", "Looker Studio", "ahrefs", "Microsoft Clarity", "アドエビス"] },
   { label: "広告・収益化", items: ["Google AdSense", "GAM", "A8.net", "afb", "fluct", "GMO SSP", "Amazon Associates", "楽天アフィリエイト", "Google Ads", "Yahoo!リスティング"] },
