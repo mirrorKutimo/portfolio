@@ -21,11 +21,13 @@ export default function Hero() {
                 <table style={{ borderCollapse: "collapse", fontSize: 12 }}>
                   <tbody>
                     {[
-                      ["経験年数", "15年以上"],
+                      ["マーケティング / SEO / 広告", "約15年（2008〜）"],
+                      ["Webエンジニアリング", "約6年（2020〜）"],
+                      ["AWSインフラ / Terraform", "約2年（2024〜）"],
+                      ["AI / LLM 活用", "約2年（2024〜）"],
+                      ["Flutter モバイル開発", "約2年（2024〜）"],
                       ["担当PJ数", "30本以上"],
-                      ["タスク処理", "2,100件以上"],
-                      ["チーム売上", "月2,000万達成"],
-                      ["連絡先", "work11281220@gmail.com"],
+                      ["チーム売上実績", "月2,000万達成"],
                     ].map(([k, v]) => (
                       <tr key={k} style={{ borderTop: "1px solid var(--border)" }}>
                         <td style={{ padding: "7px 12px 7px 0", color: "var(--text-muted)", whiteSpace: "nowrap" }}>{k}</td>
