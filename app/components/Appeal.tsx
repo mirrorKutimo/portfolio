@@ -9,7 +9,7 @@ const points = [
   },
   {
     title: "AI・LLMの実務組み込み",
-    body: "Claude APIを活用したAI占い機能・SEO記事自動生成・法務/決済/QAチェック専用AIエージェントを自作。Sentry MCP・Google Analytics MCPの業務組み込みなど、LLMを実プロダクトに落とし込んだ実績多数。",
+    body: "LLM API（ChatGPT/Gemini）を活用したAI占い機能・SEO記事自動生成・法務/決済/QAチェック専用AIエージェントを自作。Sentry MCP・Google Analytics MCPの業務組み込みなど、LLMを実プロダクトに落とし込んだ実績多数。",
   },
   {
     title: "セキュリティ・品質管理の内製化",

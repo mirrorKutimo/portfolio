@@ -8,13 +8,13 @@ const projects = [
     role: "インフラ / フルスタック / SEO / 広告",
     bullets: [
       "EC2 / RDS / ALB / CloudFront等AWSインフラ設計・運用・RDS MySQL 5→8バージョンアップ",
-      "PHP / cronによる毎日自動投稿システム設計・Claude API記事生成プロンプト設計",
+      "PHP / cronによる毎日自動投稿システム設計・LLM API（ChatGPT/Gemini）記事生成プロンプト設計",
       "GSC API内製SEOツール開発（カニバリゼーション検出・競合調査・記事間引き自動チェック）",
       "Google AdSense / GAM / fluct / A8.net等広告・アフィリエイト収益最大化",
       "OWASP ZAP脆弱性診断・IAM棚卸し・GuardDuty / CloudTrail設定",
       "GA4 / Looker Studioによる月次KPIレポート自動化",
     ],
-    tech: "AWS / Terraform / PHP / MySQL / CloudFront / Claude API / GSC API / GA4",
+    tech: "AWS / Terraform / PHP / MySQL / CloudFront / LLM API / GSC API / GA4",
   },
   {
     name: "AI占い / AIエージェント群",
@@ -22,14 +22,14 @@ const projects = [
     period: "2024〜",
     role: "AIエンジニアリング / プロダクト設計",
     bullets: [
-      "Claude APIを組み込んだAI占いサービスのMVP定義・AWSインフラ設計・実装",
+      "LLM API（ChatGPT/Gemini）を組み込んだAI占いサービスのMVP定義・AWSインフラ設計・実装",
       "法務チェック・決済セキュリティ・Webアプリ標準チェック専用AIエージェントを自作",
       "Transformers（HuggingFace）を活用したテキスト分析・埋め込み処理",
       "Langfuse / LangSmithによるLLM APIトレーシング・プロンプトバージョン管理・コスト最適化",
       "Sentry MCP・Google Analytics MCPの業務プロセスへの組み込み",
       "ベクトルDB・embedding・AzureMLの技術調査・検証",
     ],
-    tech: "Claude API / Transformers / Langfuse / LangSmith / Sentry MCP / GA4 MCP / Claude Code / Python / Vector DB",
+    tech: "LLM API / Transformers / Langfuse / LangSmith / Sentry MCP / GA4 MCP / Claude Code / Python / Vector DB",
   },
   {
     name: "モッピー連携 / LINEyahoo占いAPI",
